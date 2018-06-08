@@ -1,4 +1,4 @@
-class StudentController < ActiverRecord::Base 
+class StudentController < ApplicationController 
   
   def index 
     @students = Student.all 
