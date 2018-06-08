@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   
-  get 'students' 
+  get 'students', to: 
 end
